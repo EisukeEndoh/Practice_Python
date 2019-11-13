@@ -4,7 +4,6 @@ import urllib.parse
 import urllib.request
 from bs4 import BeautifulSoup
 import sys
-import time
 import requests
 
 
@@ -19,6 +18,4 @@ def shindan(name):
 
     
 name = sys.argv[1]
-# for num in sys.argv[2:]:
 shindan(name)
-time.sleep(0.1)
